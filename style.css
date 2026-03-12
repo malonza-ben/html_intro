@@ -35,4 +35,39 @@ font-size:17px;
 line-height:1.8;
 }
 
+/*form styles*/
 
+.contact-form{
+display:flex;
+width: 50%;
+text-align: center;
+margin: 20px auto;  
+flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea{
+padding:10px;
+margin-top:5px;
+margin-bottom:15px;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
+.contact-form textarea{
+height:120px;
+}
+
+.btn{
+background:#3498db;
+color:white;
+padding:12px;
+border:none;
+border-radius:5px;
+font-size:16px;
+cursor:pointer;
+}
+
+.btn:hover{
+background:#2980b9;
+}
